@@ -1,0 +1,18 @@
+
+    <!-- movie name section -->
+    <div class="page-header">
+        <h1>Movie Nerd</h1>
+    </div>
+    <!-- input section -->
+    <div class="input-group">
+        <input type="text" class="form-control" ng-model="input">
+        <span class="input-group-btn">
+        <button class="btn btn-default" type="button"  ng-click="vm.find(input)"><a ui-sref="main.results">Go!</a></button>
+        </span>
+
+    </div>
+   <!-- <pre>{{vm.movies}}</pre> -->
+
+   
+
+<div ui-view></div>

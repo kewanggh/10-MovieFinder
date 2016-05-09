@@ -1,0 +1,71 @@
+body {
+    margin: 20px 50px 20px 50px;
+    background-image: url('/app/css/background.JPG');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: bold;
+    text-shadow: 2px 2px gray;
+}
+
+#boxes {
+    /*	height: 100px;
+	width: 30%;*/
+    margin: 5px 9px 5px 9px;
+    height: 300px;
+    width: 320px;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.panel-title {
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-fluid {}
+
+.panel-body {
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    line-height: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#detailimage {
+    float: left;
+    margin-left: 20px;
+}
+
+#detailbox {
+    margin: 5px 50px 5px 50px;
+}
+
+ul {
+    margin-top: 50px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
